@@ -753,7 +753,7 @@ void FontState::renderText(const char *text, uint32_t len, int32_t x, int32_t y,
     Font *currentFont = mRSC->getFont();
     if (!currentFont) {
         if (!mDefault.get()) {
-            String8 fontsDir("/fonts/Roboto-Regular.ttf");
+            String8 fontsDir("/fonts/RobotoCondensed-Regular.ttf");
             String8 fullPath(getenv("ANDROID_ROOT"));
             fullPath += fontsDir;
 
